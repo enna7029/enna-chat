@@ -1,0 +1,20 @@
+{
+    "name": "enna/enna-chat",
+    "description": "A chat demo based on workerman",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "王龙",
+            "email": "w1069103107@outlook.com"
+        }
+    ],
+    "require": {
+        "workerman/gateway-worker": "^3.1"
+    },
+    "autoload": {
+        "psr-4":{
+            "Enna\\Chat\\":"src"
+        }
+    }
+}
